@@ -1,0 +1,15 @@
+﻿#color-container
+{
+    display: grid;
+    grid-template-columns: 20rem 15rem 5rem min-content;
+    gap: 1px 1rem;
+}
+
+.color-preview
+{
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    width: 2rem;
+    height: 2rem;
+}
