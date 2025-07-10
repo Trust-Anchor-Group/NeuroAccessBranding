@@ -4,7 +4,8 @@ Date: 2024-08-01
 Author: Peter Waher
 Master: /Master.md
 Parameter: ResourceName
-CSS: TemplateStyles.cssx
+Privilege: Admin.Presentation.NeuroAccessBranding
+CSS: NeuroAccessBranding.cssx
 Javascript: NeuroAccessBranding.js
 Javascript: EditResource.js
 

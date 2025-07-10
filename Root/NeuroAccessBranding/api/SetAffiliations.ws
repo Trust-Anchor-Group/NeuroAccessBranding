@@ -1,5 +1,5 @@
 AuthenticateSession(Request,"User");
-Authorize(User,"Admin.Data.Nodes");
+Authorize(User,"Admin.Presentation.NeuroAccessBranding");
 
 if not (Posted matches { affiliations: PAffiliations[] }) then
     BadRequest("Invalid post 1");

@@ -1,5 +1,5 @@
 AuthenticateSession(Request,"User");
-Authorize(User,"Admin.Data.Nodes");
+Authorize(User,"Admin.Presentation.NeuroAccessBranding");
 
 if !(Posted matches {"name": PName})
     then BadRequest("Invalid payload");

@@ -1,5 +1,5 @@
 AuthenticateSession(Request,"User");
-Authorize(User,"Admin.Data.Nodes");
+Authorize(User,"Admin.Presentation.NeuroAccessBranding");
 
 if !(Posted matches {xml: PXml, resourceName: PResourceName}) then
     BadRequest("invalid post data");

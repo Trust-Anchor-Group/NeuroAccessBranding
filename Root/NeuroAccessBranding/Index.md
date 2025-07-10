@@ -3,9 +3,11 @@ Description: Main page of Content-Only Package Template.
 Date: 2024-08-01
 Author: Peter Waher
 Master: /Master.md
-CSS: TemplateStyles.cssx
+Privilege: Admin.Presentation.NeuroAccessBranding
+CSS: NeuroAccessBranding.cssx
 Javascript: NeuroAccessBranding.js
 Javascript: Branding.js
+Javascript: /Events.js
 
 {{
     BrandingNode:= select top 1 * from Waher.Service.IoTBroker.PubSub.PubSubNode where Service="" AND Name="NeuroAccessBranding";
@@ -124,7 +126,7 @@ Javascript: Branding.js
 <div>
 {{
     foreach resource in resources do (
-        ]]<a class="button" href="EditResource.md?ResourceName=((resource.ItemId))">((resource.ItemId))</a>[[
+        ]]<BUtton onclick="OpenUrl('EditResource.md?ResourceName=((resource.ItemId))')">((resource.ItemId))</a>[[
     )
 
 }}

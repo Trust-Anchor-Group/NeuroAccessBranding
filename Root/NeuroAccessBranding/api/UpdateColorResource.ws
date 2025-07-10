@@ -1,5 +1,5 @@
 AuthenticateSession(Request, "User");
-Authorize(User, "Admin.Data.Nodes");
+Authorize(User, "Admin.Presentation.NeuroAccessBranding");
 
 if !(Posted matches {resourceName: PResourceName, colors: PColors[]}) then
     BadRequest("invalid post data");
