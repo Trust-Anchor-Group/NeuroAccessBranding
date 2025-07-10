@@ -209,6 +209,20 @@ function NeuroAccessBrandingHandler()
         })
     }
 
+    async function SetAffiliations(affiliations)
+    {
+        const response = await fetch("api/SetAffiliations.ws", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify({
+                affiliations,
+            })
+        })
+    }
+
     function FinalHexValue(mauiColorString)
     {
         // already hex
@@ -228,6 +242,7 @@ function NeuroAccessBrandingHandler()
         UpdateColorResource,
         DeleteColorResource,
         ReplaceColorResource,
+        SetAffiliations,
         FinalHexValue,
 
         get MauiColors() { return mauiColors }

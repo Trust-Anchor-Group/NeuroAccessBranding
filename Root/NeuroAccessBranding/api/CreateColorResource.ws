@@ -183,7 +183,7 @@ object
     '</ResourceDictionary>',
     Node: "NeuroAccessResources",
     Domain: "pubsub.", 
-    Publisher: "wpf@", 
+    Publisher: Gateway.XmppClient.get_BareJID(), 
     Created: NowUtc
 };
 

@@ -1,5 +1,5 @@
-AuthenticateSession(Request,"User");
-Authorize(User,"Admin.Data.Nodes");
+AuthenticateSession(Request, "User");
+Authorize(User, "Admin.Data.Nodes");
 
 if !(Posted matches {resourceName: PResourceName, colors: PColors[]}) then
     BadRequest("invalid post data");
@@ -29,5 +29,5 @@ Resource.Payload:= sb.ToString();
 UpdateObject(Resource);
 
 {
-    success: Resource.Payload
+    success: true
 }

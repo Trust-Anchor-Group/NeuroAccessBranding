@@ -1,4 +1,18 @@
-﻿#color-container
+﻿.affiliation
+{
+    display: flex;
+    gap: 1rem;
+}
+.affiliation input
+{
+    width: 30rem;
+}
+.affiliation select
+{
+    width: 10rem;
+}
+
+#color-container
 {
     display: grid;
     grid-template-columns: 20rem 15rem 5rem min-content;
