@@ -17,4 +17,5 @@
 			<Content fileName="NeuroAccessBranding.js" />
 		</Folder>
 	</Folder>
+	<Content fileName="NeuroAccessBranding.config" />
 </Module>
