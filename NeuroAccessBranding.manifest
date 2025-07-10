@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module xmlns="http://waher.se/Schema/ModuleManifest.xsd">
+	<Content fileName="NeuroAccessBranding.config" />
 	<Folder name="Root">
 		<Folder name="NeuroAccessBranding">
-			<Folder name="api">
-				<Content fileName="CreateColorResource.ws" />
-				<Content fileName="DeleteColorResource.ws" />
-				<Content fileName="ReplaceColorResource.ws" />
-				<Content fileName="SetAffiliations.ws" />
-				<Content fileName="UpdateColorResource.ws" />
-			</Folder>
 			<Content fileName="Branding.js" />
 			<Content fileName="EditResource.js" />
 			<Content fileName="EditResource.md" />
 			<Content fileName="Index.md" />
 			<Content fileName="NeuroAccessBranding.cssx" />
 			<Content fileName="NeuroAccessBranding.js" />
+			<Folder name="Api">
+				<Content fileName="CreateColorResource.ws" />
+				<Content fileName="DeleteColorResource.ws" />
+				<Content fileName="ReplaceColorResource.ws" />
+				<Content fileName="SetAffiliations.ws" />
+				<Content fileName="UpdateColorResource.ws" />
+			</Folder>
 		</Folder>
 	</Folder>
-	<Content fileName="NeuroAccessBranding.config" />
 </Module>

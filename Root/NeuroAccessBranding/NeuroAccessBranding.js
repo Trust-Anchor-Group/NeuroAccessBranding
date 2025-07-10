@@ -153,7 +153,7 @@ function NeuroAccessBrandingHandler()
 
     async function CreateColoResource(name)
     {
-        const response = await fetch("api/CreateColorResource.ws", {
+        const response = await fetch("Api/CreateColorResource.ws", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -167,7 +167,7 @@ function NeuroAccessBrandingHandler()
 
     async function UpdateColorResource(name, colors)
     {
-        const response = await fetch("api/UpdateColorResource.ws", {
+        const response = await fetch("Api/UpdateColorResource.ws", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -182,7 +182,7 @@ function NeuroAccessBrandingHandler()
 
     async function DeleteColorResource(name)
     {
-        const response = await fetch("api/DeleteColorResource.ws", {
+        const response = await fetch("Api/DeleteColorResource.ws", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -196,7 +196,7 @@ function NeuroAccessBrandingHandler()
 
     async function ReplaceColorResource(name, xml)
     {
-        const response = await fetch("api/ReplaceColorResource.ws", {
+        const response = await fetch("Api/ReplaceColorResource.ws", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -211,7 +211,7 @@ function NeuroAccessBrandingHandler()
 
     async function SetAffiliations(affiliations)
     {
-        const response = await fetch("api/SetAffiliations.ws", {
+        const response = await fetch("Api/SetAffiliations.ws", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
