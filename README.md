@@ -3,7 +3,7 @@
 A service that allows administrators of a Neuron to manage branding Pub-Sub node access and customize color themes.
 
 ## Installable Package
-
+ Z
 The Neuro Access Branding service has been made into a package that can be downloaded and installed on any 
 [TAG Neuron](https://lab.tagroot.io/Documentation/Index.md). To create a package, that can be distributed or installed, you begin by creating 
 a *manifest file*. This repository contains a manifest file called `NeuroAccessBranding.manifest`. It defines the content files included in the package. 
